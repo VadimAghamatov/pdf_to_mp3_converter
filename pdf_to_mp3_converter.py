@@ -4,9 +4,6 @@ from art import tprint
 from pathlib import Path
 import time
 
-
-start_time = time.time()
-
 def pdf_to_mp3_converter(file_path='test.pdf', language='en'):
     
     if Path(file_path).is_file() and Path(file_path).suffix == '.pdf':
